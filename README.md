@@ -13,4 +13,5 @@ function mystery(a) {
 }
 ```
 mystery() takes a list of numbers as an argument, then, provided the length of the list is > 1, recursively slices the array down to the last element 
-and adds that to the foo variable. Then it compares foo to the first element of the orignal array, and returns the greater of the two.
+and adds that to the foo variable. Then it compares foo to the first element of the orignal array, and returns the greater of the two. The return value is the 
+maximum value of all the elements in the orignal array.. If the length of the list is 1, it returns that element. 
